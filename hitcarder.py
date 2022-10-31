@@ -219,6 +219,8 @@ def main(username, password):
 
 
 if __name__ == "__main__":
+    import random
+    time.sleep(random.randint(1800,7200))
     username = os.environ['USERNAME']
     password = os.environ['PASSWORD']
 
