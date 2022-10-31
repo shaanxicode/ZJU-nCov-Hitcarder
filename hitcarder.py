@@ -10,7 +10,7 @@ import os
 import sys
 import message
 import ddddocr
-import random
+# import random
 
 class HitCarder(object):
     """Hit carder class
@@ -145,7 +145,7 @@ class HitCarder(object):
 
         self.info = new_info
         # print(json.dumps(self.info))
-        time.sleep(random(1800,7200))
+        
         return new_info
 
     def _rsa_encrypt(self, password_str, e_str, M_str):
